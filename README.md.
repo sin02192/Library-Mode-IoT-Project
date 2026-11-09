@@ -1,0 +1,31 @@
+# 📚 Library Mode – AI and IoT Project
+
+## Project Description
+Library Mode is an AI and IoT-based project that detects whether a person is using a mobile phone in a library.
+
+## Technologies Used
+- Python
+- Google Colab
+- YOLOv8
+- OpenCV
+- MQTT
+- ESP32
+- Wokwi Simulator
+
+## Working
+1. If a person is detected without a phone, the green LED turns ON.
+2. If a person is detected with a phone, the red LED and buzzer turn ON.
+3. If no person is detected, all outputs turn OFF.
+
+## MQTT Configuration
+- Broker: broker.hivemq.com
+- Port: 1883
+- Topic: sinchana1hm25cr094
+
+## Project Files
+- Colab notebook: AI detection and MQTT publishing.
+- sketch.ino: ESP32 program.
+- libraries.txt: Required Arduino library.
+
+## Conclusion
+This project demonstrates how AI and IoT can help monitor mobile phone usage in a library environment.
